@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         name: "Cache Derived Data"
         with:
           path: |
@@ -21,7 +21,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-derivedData-cache-
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: Pods
           key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
