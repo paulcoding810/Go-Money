@@ -11,7 +11,7 @@ pod 'FirebaseFirestoreSwift'
 pod 'FirebaseMessaging'
 
 pod 'Charts', :git => 'https://github.com/danielgindi/Charts.git', :branch => 'master'
-pod 'RealmSwift', '~> 10.32'
+pod 'RealmSwift', '~> 20.0'
 pod 'DropDown'
 pod 'Floaty'
 pod "TTGSnackbar"
